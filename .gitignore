@@ -3,6 +3,7 @@ build/
 bin/
 .buildozer/
 buildozer_env/
+dist/
 
 # Python
 __pycache__/
@@ -17,6 +18,15 @@ ENV/
 # Archive files
 *.tar.gz
 *.zip
+
+# Documentation and other files
+*.md
+!README.md
+*.spec
+!buildozer.spec
+*.sh
+*.bat
+*.ps1
 
 # OS files
 .DS_Store
