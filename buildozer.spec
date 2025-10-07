@@ -20,7 +20,7 @@ version = 1.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivymd,requests,urllib3,chardet,idna,certifi
+requirements = python3,kivy,requests
 
 # (str) Supported orientation (one of landscape, portrait or all)
 orientation = portrait
@@ -29,7 +29,7 @@ orientation = portrait
 fullscreen = 0
 
 # (int) Target Android API, should be as high as possible.
-android.api = 33
+android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
 android.minapi = 21
@@ -38,7 +38,7 @@ android.minapi = 21
 android.ndk = 25b
 
 # (str) Android SDK version to use
-android.sdk = 33
+# android.sdk = 33
 
 # (str) Android entry point, default is ok for Kivy-based app
 android.entrypoint = org.kivy.android.PythonActivity
